@@ -25,7 +25,7 @@
 					var d = new Date();
 				
 					$('#inputFields').show();
-					document.getElementById("demo").innerHTML = '';
+					$('#loading').hide();
 					document.getElementById("loading").innerHTML =' <h1 style="color:green">Ready to use.</h1>';
 				}
 
